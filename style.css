@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s linear;
+}
+
+@font-face {
+    font-family: "SuperDream";
+    src: url("SuperDream.ttf");
+}
+
+body {
+    height: 100vh;
+    font-family: "SuperDream";
+    background-image: url(fa2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+    line-height: 70px;
+    backdrop-filter: blur(20px);
+}
+
+.logo {
+    color: #ff7b00;
+    margin-left: 180px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin-right: 60px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #12223c;
+    padding: 8px;
+    font-size:  24px;
+}
+
+.active {
+    color: #ff7b00;
+}
+
+li a:hover {
+    color: #ff7b00;
+}
+
+.margin-r {
+    margin-right: -40px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+h2 {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    color: #12223c;
+}
+
+h4 {
+    position: absolute;
+    top: 31%;
+    left: 2%;
+    font-size: 19px;
+    letter-spacing: 2px;
+    width: 400px;
+    text-align: center;
+    color: #12223c;
+    font-weight: 100;
+}
+
+.btn-start{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #12223c;
+    background-color: #12223c;
+    color: #dfdfdf;
+    font-family: "SuperDream";
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn-start:hover {
+    background-color: #ff7b00;
+    color: #000000;
+}
